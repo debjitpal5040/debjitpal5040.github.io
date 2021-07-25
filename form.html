@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+    <title>My form</title>
+</head>
+<h1 align="Center">Identity Form</h1>
+<body bgcolor="Green">
+<form>
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br>
+
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username"><br>
+    <label for="pwd">Password:</label>
+    <input type="password" id="pwd" name="pwd"><br>
+
+
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email" name="email"><br>
+
+    <p>What is your gender ?</p>
+
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label><br>
+
+    <label for="age">Select your Age:</label>
+    <input type="number" id="age" name="age" min="18" max="27" value="18">
+
+    <p>Which system do you use ?</p>
+
+    <input type="checkbox" id="system1" name="system1" value="macOS">
+    <label for="system1"> I use macOS</label><br>
+    <input type="checkbox" id="system2" name="system2" value="Windows">
+    <label for="system2"> I use Windows</label><br>
+    <input type="checkbox" id="system3" name="system3" value="Linux">
+    <label for="system3"> I use Linux</label><br>
+
+    <label for="favcolor">Select your favorite color:</label>
+    <input type="color" id="favcolor" name="favcolor"><br>
+    
+
+    <label for="myfile">Upload your CV:</label>
+    <input type="file" id="myfile" name="myfile"><br>
+    
+    <label for="rating">Rate my work (between 1 and 5):</label>
+    <input type="range" id="rating" name="rating" min="1" max="5" step="1"><br>
+
+    <input type="reset">
+    <input type="submit" value="Submit"><br>
+
+
+</form>
+</body>
+</html>
