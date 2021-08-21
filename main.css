@@ -8,8 +8,24 @@
 body {
     background: var(--bg);
 }
+h1 {
+    font-size: 3vw;
+}
+h2 {
+    font-size: 2vw;
+}
+h3 {
+    font-size: 1.5vw;
+}
+h4 {
+    font-size: 1.25vw;
+}
+p {
+    font-size: 1.25vw;
+}
 li {
     list-style: circle;
+    font-size: 1.25vw;
 }
 .light-theme {
     --bg: var(--white);
@@ -25,13 +41,21 @@ li {
 }
 .btn {
     position: absolute;
-    top: 20px;
-    left: 250px;
-    height: 50px;
-    width: 50px;
+    text-align: center;
+    top: 30px;
+    right: 50px;
+    height: 8%;
+    width: 5%;
     border-radius: 50%;
-    border: none;
+    border: 3px outset red;
     color: var(--btnFontColor);
     background-color: var(--btnBg);
 }
-.btn:focus { outline-style: none; }
+.responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+.responsive-width {
+    font-size: 1vw;
+}
