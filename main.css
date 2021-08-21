@@ -1,6 +1,8 @@
 :root {
     --white: #ffffff;
     --black: #000000;
+    --lightseagreen: #20b2aa;
+    --darknavyblue: #02075d;
 }
 * {
     color: var(--fontColor);
@@ -28,16 +30,16 @@ li {
     font-size: 1.25vw;
 }
 .light-theme {
-    --bg: var(--white);
+    --bg: var(--lightseagreen);
     --fontColor: var(--black);
-    --btnBg: var(--black);
-    --btnFontColor: var(--white);
+    --btnBg: var(--darknavyblue);
+    --btnFontColor: var(--lightseagreen);
 }
 .dark-theme {
-    --bg: var(--black);
+    --bg: var(--darknavyblue);
     --fontColor: var(--white);
-    --btnBg: var(--white);
-    --btnFontColor: var(--black);
+    --btnBg: var(--lightseagreen);
+    --btnFontColor: var(--darknavyblue);
 }
 .btn {
     position: absolute;
