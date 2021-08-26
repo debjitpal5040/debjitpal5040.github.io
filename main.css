@@ -11,7 +11,6 @@
 body {
     background: var(--bg);
 }
-
 li {
     list-style: circle;
 }
@@ -43,4 +42,8 @@ li {
     border: 3px outset red;
     color: var(--btnFontColor);
     background-color: var(--btnBg);
+}
+a i {
+    display: block;
+    text-align: right;
 }
