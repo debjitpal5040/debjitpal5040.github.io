@@ -13,15 +13,15 @@
         <div>
             <button class="btn">Dark</button>
         </div>
-        <form autocomplete="on" onsubmit="myFunction()">
+        <form autocomplete="on" action="https://formspree.io/f/xyyllgzv" method="POST">
             <label for="fname">First name :</label>
-            <input type="text" id="fname" name="fname" placeholder="e.g. Debjit" maxlength="15" autofocus required><br>
+            <input type="text" id="fname" name="firstname" placeholder="e.g. Debjit" maxlength="15" autofocus required><br>
             <label for="lname">Last name :</label>
-            <input type="text" id="lname" name="lname" placeholder="e.g. Pal" maxlength="15" required><br>
+            <input type="text" id="lname" name="lastname" placeholder="e.g. Pal" maxlength="15" required><br>
             <label for="email" >Email :</label>
             <input type="email" id="email" name="email" placeholder="e.g. test@mail.com" required><br>
             <label for="phone">Mobile :</label>
-            <input type="tel" id="phone" name="phone" placeholder="e.g. 1234567890" pattern="[0-9]{10}" maxlength="10" required><br><br>
+            <input type="tel" id="phone" name="phone" placeholder="e.g. 1234567890" pattern="[0-9]{10}" maxlength="10" required><br>
             <label for="country">Country :</label>
             <select id="country" name="country">
                 <option value="India">India</option>
@@ -36,9 +36,6 @@
             <input type="radio" id="other" name="gender" value="Other" required>
             <label for="other">Other</label><br>
             <br>
-            <label for="birthday">Date of Birth :</label>
-            <input  type="date" id="birthday" name="birthday" max="2003-01-01" required><br>
-            <br>
             <label for="message">Enter your message :</label><br>
             <textarea id="message" name="message" placeholder="Write something..."></textarea>
             <p>Which system do you use ?</p>
@@ -49,19 +46,18 @@
             <input type="checkbox" id="system3" name="system3" value="Linux">
             <label for="system3"> Linux</label><br>
             <br>
-            <label for="favcolor"> Choose your favorite color :</label>
-            <input type="color" id="favcolor" name="favcolor"><br>
-            <br>
             <label for="rating">Rate my work (1 to 10) :</label>
             <input type="range" id="rating" name="rating" min="1" max="10" step="1" value="6" oninput="this.nextElementSibling.value = this.value" class="slider">
             <output>6</output><br>
             <br>
             <input type="reset">
-            <input type="submit" value="Submit"><br>
+            <input type="submit" value="Send"><br>
+            <div class="g-recaptcha" data-sitekey="6Ld3hSkcAAAAAJsYX3rFmKZI9KWK5-hNh_dyQKUm"></div>
         </form>
         <a href="https://debjitpal5040.github.io"><i>Click here to go back to homepage</i></a>
         <!--Enable Javascript-->
         <script src="app.js"></script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
         <noscript>You need to enable JavaScript to view the full site</noscript>
     </body>
 </html>

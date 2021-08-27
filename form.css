@@ -54,7 +54,7 @@ textarea{
     margin-bottom: 16px;
     resize: vertical;
 }
-input:focus:not([type="color"],[type="date"]),textarea:focus {
+input:focus:not([type="date"]),textarea:focus {
     background-color: rgb(7, 42, 41);
 } 
 select {
@@ -62,9 +62,6 @@ select {
     width: 20%;
     color: white;
     border: none;
-}
-input[type=date] {
-    background-color: olive;
 }
 input[type=reset] {
     padding: 10px 10px;
@@ -85,9 +82,6 @@ input[type=submit] {
 }
 input[type=submit]:hover {
     background-color: #0b440e;
-}
-input[type=color] {
-    cursor: pointer;
 }
 .slider {
     -webkit-appearance: none;  

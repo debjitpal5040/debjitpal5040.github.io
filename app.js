@@ -13,6 +13,3 @@ switcher.addEventListener('click', function() {
     }
     console.log('current class name: ' + className);
 });
-function myFunction() {
-    alert("Form submitted successfully!!!");
-}
