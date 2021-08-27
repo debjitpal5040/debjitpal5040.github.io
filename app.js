@@ -1,7 +1,5 @@
 'use strict'
-
 const switcher = document.querySelector('.btn');
-
 switcher.addEventListener('click', function() {
     document.body.classList.toggle('dark-theme')
     var className = document.body.className;
@@ -15,3 +13,6 @@ switcher.addEventListener('click', function() {
     }
     console.log('current class name: ' + className);
 });
+function myFunction() {
+    alert("Form submitted successfully!!!");
+}
