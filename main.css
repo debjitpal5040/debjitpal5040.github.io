@@ -1,6 +1,12 @@
 * {
     box-sizing: border-box;
 }
+body {
+    background-image: radial-gradient(30% 50% ellipse at center top, #3d32c0ca 0%, rgba(53, 103, 195, 0.555) 100%),
+    radial-gradient(30% 50% ellipse at center, #382db1ca 0%, rgba(25, 63, 131, 0.555) 100%),
+    radial-gradient(30% 50% ellipse at center bottom, #646262 0%, #000000 100%);
+    margin: 1em 1em 1em 1em; 
+}
 h1{
     text-align: center;
     font-size: 50px;
@@ -21,12 +27,6 @@ h4{
 b{
     color: blanchedalmond;
 }
-body {
-    background-image: radial-gradient(30% 50% ellipse at center top, #3d32c0ca 0%, rgba(53, 103, 195, 0.555) 100%),
-    radial-gradient(30% 50% ellipse at center, #382db1ca 0%, rgba(25, 63, 131, 0.555) 100%),
-    radial-gradient(30% 50% ellipse at center bottom, #646262 0%, #000000 100%);
-    margin: 1em 1em 1em 1em; 
-}
 p{
     font-size: 19px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -35,8 +35,24 @@ li {
     list-style: square;
     font-size: 20px;
 }
+img {
+    margin: 5px;
+}
+header {
+    text-align: center;
+}
+section {
+    margin: 1em 1em 1em 1em;
+}
+main { 
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 #lang{
     padding-bottom: 0.7em;
+}
+#list{
+    list-style: circle;
 }
 #form{
     text-align: center;
@@ -45,27 +61,12 @@ li {
     color: white;
     font-size: 15px;
 }
-img {
-    margin: 5px;
-}
-header {
-    text-align: center;
-}
 #mainleft {
     border-right: 1px solid #000000;
 }
 #mainright {
     margin-left: 30px;
     float: right;
-}
-/* top right bottom left*/
-section {
-    margin: 1em 1em 1em 1em;
-}
-main { 
-    display: grid;
-    grid-template-columns: 50% 50%;
-    
 }
 .image {
     align-items: center;
