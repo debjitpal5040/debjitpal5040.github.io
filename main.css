@@ -16,7 +16,6 @@ h3{
     color: coral;
 }
 h4{
-    
     color: yellow;
 }
 b{
@@ -33,19 +32,24 @@ p{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 li {
-    list-style: circle;
+    list-style: square;
     font-size: 20px;
 }
 #lang{
     padding-bottom: 0.7em;
 }
-
+#form{
+    text-align: center;
+    display: block;
+    padding-top: 2em;
+    color: white;
+    font-size: 15px;
+}
 img {
     margin: 5px;
 }
 header {
     text-align: center;
-    margin: auto 2em;
 }
 #mainleft {
     border-right: 1px solid #000000;
@@ -63,7 +67,6 @@ main {
     grid-template-columns: 50% 50%;
     
 }
-
 .image {
     align-items: center;
     width: 150px;
