@@ -4,6 +4,8 @@
 h1{
     text-align: center;
     font-size: 50px;
+    font-family: cursive;
+    color: greenyellow;
 }
 h2{
     font-size: 30px;
@@ -11,6 +13,11 @@ h2{
 }
 h3{
     font-size: 20px;
+    color: coral;
+}
+h4{
+    
+    color: yellow;
 }
 b{
     color: blanchedalmond;
