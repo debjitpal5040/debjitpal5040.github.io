@@ -5,78 +5,72 @@ body {
     background-image: radial-gradient(30% 50% ellipse at center top, #3d32c0ca 0%, rgba(53, 103, 195, 0.555) 100%),
     radial-gradient(30% 50% ellipse at center, #382db1ca 0%, rgba(25, 63, 131, 0.555) 100%),
     radial-gradient(30% 50% ellipse at center bottom, #646262 0%, #000000 100%);
-    margin: 1em 1em 1em 1em; 
-    margin-left: 40px;
-    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 20px;
 }
 h2{
     text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    color: yellowgreen;
 }
-
+label, p{
+    color: aqua;
+}
 input[type = text],[type = email], [type = tel] {
     width: 18%;
-    padding: 5px;
+    padding: 7px;
     margin: 10px;
     background-color:midnightblue; 
     color: white;
 }
+input[type= radio]{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+input[type=checkbox]{
+    margin-bottom: 20px;
+}
 textarea{
     background-color:midnightblue;
-    width: 50%;
-    height:200px;
+    width: 40%;
+    height:180px;
     padding: 12px;
     color: white;
     margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+    margin-bottom: 8px;
+    resize: horizontal;
 }
-input:focus:not([type="date"]),textarea:focus {
-    background-color: rgb(7, 42, 41);
+input:focus, textarea:focus {
+    background-color: darkgreen;
 } 
-select {
-    background-color: midnightblue;
-    width: 20%;
-    color: white;
-    border: none;
-}
 input[type=reset] {
     padding: 10px 10px;
     background-color: #a73a70;
     color: white;
-    border: none;
+    border-radius: 50%;
     cursor: pointer;
+    margin-right: 20px;
+    margin-top: 10px;
 }
 input[type=reset]:hover {
-    background-color: #0b440e;
+    background-color: red;
 }
 input[type=submit] {
-    padding:10px 10px; 
-    background:rgb(17, 185, 59); 
+    padding:10px 8px; 
+    background: goldenrod; 
+    border-radius: 50%;
     color: white;
-    border: none;
     cursor:pointer;
 }
 input[type=submit]:hover {
-    background-color: #0b440e;
-}
-.slider {
-    -webkit-appearance: none;  
-    background: #789bdd; 
-    opacity: 0.7; 
-    -webkit-transition: .2s; 
-    transition: opacity .2s;
-}
-.slider:hover {
-    opacity: 1; 
-}
-.slider::-webkit-slider-thumb {
-    -webkit-appearance: none; 
-    width: 10px; 
-    height: 15px; 
-    background: #020202; 
-    cursor: pointer; 
+    background-color: green;
 }
 a i {
     display: block;
     text-align: center;
+    color: black;
+}
+#other{
+    color: blanchedalmond;
 }
