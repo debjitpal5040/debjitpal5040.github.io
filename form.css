@@ -1,5 +1,5 @@
-* {
-    box-sizing:border-box;
+*{
+    box-sizing: border-box;
 }
 body {
     background-image: radial-gradient(30% 50% ellipse at center top, #3d32c0ca 0%, rgba(53, 103, 195, 0.555) 100%),
@@ -16,6 +16,11 @@ h2{
 }
 label, p{
     color: aqua;
+}
+label[for="fname"],[for="lname"],[for="email"],[for="phone"],[for="gender"]{
+    display: inline-block;
+    text-align: right;
+    width: 100px;
 }
 input[type = text],[type = email], [type = tel] {
     width: 18%;
