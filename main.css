@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    text-decoration: none;
 }
 body {
     background-image: radial-gradient(30% 50% ellipse at center top, #3d32c0ca 0%, rgba(53, 103, 195, 0.555) 100%),
@@ -22,6 +23,9 @@ h3{
     color: coral;
 }
 h4{
+    color: yellow;
+}
+a{
     color: yellow;
 }
 b{
