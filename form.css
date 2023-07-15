@@ -1,55 +1,73 @@
-*{
+* {
     box-sizing: border-box;
     text-align: center;
 }
+
 body {
     background-image: radial-gradient(30% 50% ellipse at center top, #3d32c0ca 0%, rgba(53, 103, 195, 0.555) 100%),
-    radial-gradient(30% 50% ellipse at center, #382db1ca 0%, rgba(25, 63, 131, 0.555) 100%),
-    radial-gradient(30% 50% ellipse at center bottom, #646262 0%, #000000 100%);
+        radial-gradient(30% 50% ellipse at center, #382db1ca 0%, rgba(25, 63, 131, 0.555) 100%),
+        radial-gradient(30% 50% ellipse at center bottom, #646262 0%, #000000 100%);
     margin-left: 50px;
     font-size: 20px;
 }
-h2{
+
+h2 {
     text-align: center;
     font-size: 40px;
     font-family: cursive;
     color: yellowgreen;
 }
-label, p{
+
+label,
+p {
     color: aqua;
 }
-label[for="fname"],[for="lname"],[for="email"],[for="phone"],[for="gender"]{
+
+label[for="fname"],
+[for="lname"],
+[for="email"],
+[for="phone"],
+[for="gender"] {
     display: inline-block;
     text-align: right;
     width: 100px;
 }
-input[type = text],[type = email], [type = tel] {
+
+input[type=text],
+[type=email],
+[type=tel] {
     width: 18%;
     padding: 7px;
     margin: 10px;
-    background-color:midnightblue; 
+    background-color: midnightblue;
     color: white;
 }
-input[type= radio]{
+
+input[type=radio] {
     margin-bottom: 20px;
     margin-top: 10px;
 }
-input[type=checkbox]{
+
+input[type=checkbox] {
     margin-bottom: 20px;
 }
-textarea{
-    background-color:midnightblue;
+
+textarea {
+    background-color: midnightblue;
     width: 40%;
-    height:180px;
+    height: 180px;
     padding: 12px;
     color: white;
     margin-top: 6px;
     margin-bottom: 8px;
     resize: horizontal;
 }
-input:focus, textarea:focus {
+
+input:focus,
+textarea:focus {
     background-color: darkgreen;
-} 
+}
+
 input[type=reset] {
     padding: 10px 10px;
     background-color: #a73a70;
@@ -59,24 +77,29 @@ input[type=reset] {
     margin-right: 20px;
     margin-top: 10px;
 }
+
 input[type=reset]:hover {
     background-color: red;
 }
+
 input[type=submit] {
-    padding:10px 8px; 
-    background: goldenrod; 
+    padding: 10px 8px;
+    background: goldenrod;
     border-radius: 50%;
     color: white;
-    cursor:pointer;
+    cursor: pointer;
 }
+
 input[type=submit]:hover {
     background-color: green;
 }
+
 a i {
     display: block;
     text-align: center;
     color: black;
 }
-#other{
+
+#other {
     color: blanchedalmond;
 }
